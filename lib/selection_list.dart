@@ -91,8 +91,8 @@ class _SelectionListState extends State<SelectionList> {
       statusBarIconBrightness: Brightness.dark,
       systemNavigationBarColor: Colors.white,
       systemNavigationBarIconBrightness: Brightness.dark,
-      statusBarBrightness:
-          Platform.isAndroid ? Brightness.dark : Brightness.light,
+//       statusBarBrightness:
+//           Platform.isAndroid ? Brightness.dark : Brightness.light,
     ));
     height = MediaQuery.of(context).size.height;
     return Scaffold(
